@@ -43,23 +43,23 @@ const Destination = React.createClass({
       var citiesCulture = [
         'Budapest',
         'Madrid',
-        'Mailand',
+        'Milan',
         'Paris',
-        'Prag',
-        'Venedig'
+        'Prague',
+        'Venice'
       ];
 
       var citiesBeach = [
         'Barcelona',
         'Catania',
         'Faro',
-        'Korsika',
-        'Neapel',
-        'Nizza',
+        'Corsica',
+        'Naples',
+        'Nice',
         'Olbia',
         'Pula',
         'Rijeka',
-        'Rom',
+        'Rome',
         'Split',
         'Toulouse',
         'Zadar'
