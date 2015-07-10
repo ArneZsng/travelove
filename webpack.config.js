@@ -75,11 +75,11 @@ module.exports = function (prod) {
         loaders = loaders.concat([
             {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+                loader: ExtractTextPlugin.extract('style-loader', 'css-loader!autoprefixer-loader!autoprefixer-loader')
             },
             {
                 test: /\.scss$/,
-                loader: ExtractTextPlugin.extract( 'style-loader', 'css-loader!sass-loader' )
+                loader: ExtractTextPlugin.extract( 'style-loader', 'css-loader!sass-loader!autoprefixer-loader' )
             },
         ]);
     }

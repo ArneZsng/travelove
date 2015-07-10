@@ -1,9 +1,9 @@
 {
-  "name": "trello-timeline",
-  "description": "trello-timeline",
+  "name": "travelove",
+  "description": "travelove",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonastebbe/trello-timeline.git"
+    "url": "https://github.com/jonastebbe/travelove.git"
   },
   "version": "0.0.0",
   "scripts": {
@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "autoprefixer-loader": "^1.1.0",
+    "autoprefixer-loader": "^1.2.0",
     "axios": "^0.5.2",
     "babel": "^4.7.8",
     "babel-core": "^4.0.1",
