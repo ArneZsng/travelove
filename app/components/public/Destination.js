@@ -46,23 +46,20 @@ const Destination = React.createClass({
         'Milan',
         'Paris',
         'Prague',
-        'Venice'
+        'Venice',
+        'Vienna'
       ];
 
       var citiesBeach = [
-        'Barcelona',
-        'Catania',
-        'Faro',
-        'Corsica',
-        'Naples',
-        'Nice',
-        'Olbia',
-        'Pula',
-        'Rijeka',
-        'Rome',
-        'Split',
-        'Toulouse',
-        'Zadar'
+        'Amsterdam',
+        'Madrid',
+        'Milan',
+        'Manchester',
+        'Oslo',
+        'Paris',
+        'Stockholm',
+        'Venice',
+        'Vienna'
       ];
 
       var cityList = this.state.data.type === 'beach' ? citiesBeach : citiesCulture;

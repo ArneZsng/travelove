@@ -13,7 +13,7 @@ const Home = React.createClass({
         },
 
         handleClickBeach: function() {
-          UserActions.setType('beach');
+          UserActions.setType('shopping');
           this.context.router.transitionTo('week');
         },
 
@@ -27,7 +27,7 @@ const Home = React.createClass({
                 <div className="row section-type">
                     <div className="col s12 m6 l6 section-type__choice section-type__choice--beach">
                         <div onClick={this.handleClickBeach} className="section-type__choice__bg">
-                            <h1>Sun & Beach</h1>
+                            <h1>Shopping</h1>
                         </div>
                     </div>
                     <div className="col s12 m6 l6 section-type__choice section-type__choice--culture">

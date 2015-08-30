@@ -21,12 +21,12 @@ const Week = React.createClass({
         },
 
         handleClickFirst: function() {
-            UserActions.setWeek('6.8 - 9.8');
+            UserActions.setWeek('29.09. - 05.10.');
             this.context.router.transitionTo('destination');
         },
 
         handleClickSecond: function() {
-            UserActions.setWeek('13.8 - 16.8');
+            UserActions.setWeek('06.10. - 12.10.');
             this.context.router.transitionTo('destination');
         },
 
@@ -35,12 +35,12 @@ const Week = React.createClass({
                 <div className="row section-type">
                     <div className="col s12 m6 l6 section-type__choice section-type__choice--pattern">
                         <div onClick={this.handleClickFirst} className="section-type__choice__bg section-type__choice__bg--purple">
-                            <h1>6.8 - 9.8</h1>
+                            <h1>29.09. - 05.10.</h1>
                         </div>
                     </div>
                     <div className="col s12 m6 l6 section-type__choice section-type__choice--pattern">
                         <div onClick={this.handleClickSecond} className="section-type__choice__bg section-type__choice__bg--purple">
-                            <h1>13.8 - 16.8</h1>
+                            <h1>06.10. - 12.10.</h1>
                         </div>
                     </div>
                 </div>
